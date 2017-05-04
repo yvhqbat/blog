@@ -1,0 +1,7 @@
+digraph g{
+  rankdir=BT
+  node[shape=record]
+  edge[arrowhead=empty]
+  {QBoxLayout,QGridLayout}->QLayout
+  {QHBoxLayout,QVBoxLayout}->QBoxLayout
+}
