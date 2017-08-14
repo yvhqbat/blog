@@ -1,0 +1,1 @@
+g++    -std=c++11 -pthread -g -Wall -g    CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/ld/Documents/blog/CMakeDemo/lib -rdynamic ../../lib/libhello.a -Wl,-rpath,/home/ld/Documents/blog/CMakeDemo/lib 

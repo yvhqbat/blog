@@ -1,0 +1,2 @@
+/home/ld/Documents/blog/CMakeDemo/build/src/CMakeFiles/hello.dir
+/home/ld/Documents/blog/CMakeDemo/build/src/CMakeFiles/main.dir
