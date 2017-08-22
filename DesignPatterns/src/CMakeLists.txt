@@ -6,3 +6,4 @@
 #target_link_libraries(main hello)
 
 add_executable(SimpleFactory SimpleFactory.cpp)
+add_executable(FactoryMethodPattern FactoryMethodPattern.cpp)

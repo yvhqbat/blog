@@ -99,6 +99,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FactoryMethodPattern
+
+# Build rule for target.
+FactoryMethodPattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FactoryMethodPattern
+.PHONY : FactoryMethodPattern
+
+# fast build rule for target.
+FactoryMethodPattern/fast:
+	$(MAKE) -f src/CMakeFiles/FactoryMethodPattern.dir/build.make src/CMakeFiles/FactoryMethodPattern.dir/build
+.PHONY : FactoryMethodPattern/fast
+
+#=============================================================================
 # Target rules for targets named SimpleFactory
 
 # Build rule for target.
@@ -119,6 +132,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... FactoryMethodPattern"
 	@echo "... SimpleFactory"
 .PHONY : help
 

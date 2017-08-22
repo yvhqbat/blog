@@ -1,0 +1,1 @@
+g++    -std=c++11 -pthread -g -Wall -g    CMakeFiles/FactoryMethodPattern.dir/FactoryMethodPattern.cpp.o  -o ../../bin/FactoryMethodPattern  -L/home/ld/Documents/blog/DesignPatterns/lib -rdynamic 

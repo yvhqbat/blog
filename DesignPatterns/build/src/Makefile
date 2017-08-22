@@ -99,6 +99,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/FactoryMethodPattern.dir/rule:
+	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/FactoryMethodPattern.dir/rule
+.PHONY : src/CMakeFiles/FactoryMethodPattern.dir/rule
+
+# Convenience name for target.
+FactoryMethodPattern: src/CMakeFiles/FactoryMethodPattern.dir/rule
+.PHONY : FactoryMethodPattern
+
+# fast build rule for target.
+FactoryMethodPattern/fast:
+	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f src/CMakeFiles/FactoryMethodPattern.dir/build.make src/CMakeFiles/FactoryMethodPattern.dir/build
+.PHONY : FactoryMethodPattern/fast
+
+# Convenience name for target.
 src/CMakeFiles/SimpleFactory.dir/rule:
 	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SimpleFactory.dir/rule
 .PHONY : src/CMakeFiles/SimpleFactory.dir/rule
@@ -111,6 +125,30 @@ SimpleFactory: src/CMakeFiles/SimpleFactory.dir/rule
 SimpleFactory/fast:
 	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f src/CMakeFiles/SimpleFactory.dir/build.make src/CMakeFiles/SimpleFactory.dir/build
 .PHONY : SimpleFactory/fast
+
+FactoryMethodPattern.o: FactoryMethodPattern.cpp.o
+.PHONY : FactoryMethodPattern.o
+
+# target to build an object file
+FactoryMethodPattern.cpp.o:
+	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f src/CMakeFiles/FactoryMethodPattern.dir/build.make src/CMakeFiles/FactoryMethodPattern.dir/FactoryMethodPattern.cpp.o
+.PHONY : FactoryMethodPattern.cpp.o
+
+FactoryMethodPattern.i: FactoryMethodPattern.cpp.i
+.PHONY : FactoryMethodPattern.i
+
+# target to preprocess a source file
+FactoryMethodPattern.cpp.i:
+	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f src/CMakeFiles/FactoryMethodPattern.dir/build.make src/CMakeFiles/FactoryMethodPattern.dir/FactoryMethodPattern.cpp.i
+.PHONY : FactoryMethodPattern.cpp.i
+
+FactoryMethodPattern.s: FactoryMethodPattern.cpp.s
+.PHONY : FactoryMethodPattern.s
+
+# target to generate assembly for a file
+FactoryMethodPattern.cpp.s:
+	cd /home/ld/Documents/blog/DesignPatterns/build && $(MAKE) -f src/CMakeFiles/FactoryMethodPattern.dir/build.make src/CMakeFiles/FactoryMethodPattern.dir/FactoryMethodPattern.cpp.s
+.PHONY : FactoryMethodPattern.cpp.s
 
 SimpleFactory.o: SimpleFactory.cpp.o
 .PHONY : SimpleFactory.o
@@ -142,9 +180,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... FactoryMethodPattern"
 	@echo "... SimpleFactory"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... FactoryMethodPattern.o"
+	@echo "... FactoryMethodPattern.i"
+	@echo "... FactoryMethodPattern.s"
 	@echo "... SimpleFactory.o"
 	@echo "... SimpleFactory.i"
 	@echo "... SimpleFactory.s"

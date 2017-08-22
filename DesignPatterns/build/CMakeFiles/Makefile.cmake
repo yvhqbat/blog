@@ -41,5 +41,6 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/FactoryMethodPattern.dir/DependInfo.cmake"
   "src/CMakeFiles/SimpleFactory.dir/DependInfo.cmake"
   )
