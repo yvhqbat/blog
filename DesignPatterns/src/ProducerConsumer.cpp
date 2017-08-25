@@ -1,7 +1,7 @@
 /** @file   producer_consumer.cpp
  *  @brief  使用回调函数、多线程，实现生产者-消费者。
  *          糅合了(mutex, condition_variable, thread, functional, chrono)的使用.
- *  @author liudong
+ *  @author liudong11
  *  @date   20170825
  */
 #include <list>
@@ -125,3 +125,4 @@ int main()
 
 	return 0;
 }
+
