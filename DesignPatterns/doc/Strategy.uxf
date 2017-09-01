@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>684</x>
+      <y>252</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>/Strategy/
+--
+
+--
++ AlgorithmInterface()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>252</x>
+      <y>252</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Context
+--
+- Strategy
+--
++ ContextInterface()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>423</x>
+      <y>279</y>
+      <w>279</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>441</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>StrategyC
+--
+
+--
++ AlgorithmInterface()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>441</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>StrategyA
+--
+
+--
++ AlgorithmInterface()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>441</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>StrategyB
+--
+
+--
++ AlgorithmInterface()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>324</y>
+      <w>225</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>774</x>
+      <y>324</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>783</x>
+      <y>324</y>
+      <w>216</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>243</x>
+      <y>558</y>
+      <w>333</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Context上下文,维护一个Strategy对象的引用,
+可由StrategyA/StrategyB/StrategyC来配置.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>333</x>
+      <y>324</y>
+      <w>27</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>945</x>
+      <y>252</y>
+      <w>306</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>策略类,定义所有支持的算法的公共接口.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>855</x>
+      <y>261</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>819</x>
+      <y>576</y>
+      <w>423</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>具体的策略类,封装了具体的算法或行为,继承与Strategy.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>513</y>
+      <w>351</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>370.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>774</x>
+      <y>513</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>180.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>963</x>
+      <y>513</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>270</x>
+      <y>135</y>
+      <w>954</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>策略模式(Strategy): 定义了算法家族,分别封装起来,让他们之间可以互相替换,此模式让算法的变化,不会影响到使用算法的客户.[DP]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>243</x>
+      <y>693</y>
+      <w>1035</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>策略模式解析: 
+
+策略模式是一种定义一系列算法的方法, 从概念上来看, 所有这些算法完成的是相同的工作, 只是实现不同,
+它可以以相同的方式调用所有的算法, 减少了各种算法类与使用算法类之间的耦合.
+
+Strategy类层次为Context定义了一系列的可供重用算法或行为. 继承有助于析取出这些算法中的公共功能.
+
+当不同的行为堆砌在一个类中时, 就很难避免使用条件语句来选择合适的行为.
+将这些行为封装在一个个独立的Strategy类中,  可以在使用这些行为的类中消除条件语句.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
