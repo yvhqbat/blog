@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>230</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>/AbstractClass/
+--
+
+--
++ TemplateMethod()
++ PrimitiveOperation1()
++ PrimitiveOperation2()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>330</x>
+      <y>140</y>
+      <w>760</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>模板方法模式(TemplateMethod): 定义一个操作中的算法的骨架,而将一些步骤延迟到子类中.
+模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤.[DP] </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>420</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>ConcreteClass
+--
+
+--
++ PrimitiveOperation1()
++ PrimitiveOperation2()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>340</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>680</x>
+      <y>230</y>
+      <w>350</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>实现了一个模板方法, 定义了算法的骨架,
+具体子类将重定义PrimitiveOperation以
+实现一个算法的步骤.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>680</x>
+      <y>430</y>
+      <w>330</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>实现了PrimitiveOperation
+以完成算法中与特定子类相关的步骤.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>450</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>260</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>330</x>
+      <y>560</y>
+      <w>800</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>模板方法模式是通过把不变的行为搬移到超类, 去除子类中的重复代码来体现它的优势.
+
+模板方法模式就是提供了一个很多好的代码复用平台.
+
+当不变的和可变的行为在方法的子类实现中混合在一起的时候,不变的行为就会在子类中重复出现.
+我们通过模板方法模式把这些行为搬移到单一的地方,这样就帮助子类摆脱重复的不变行为的纠缠.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
