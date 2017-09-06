@@ -1,5 +1,5 @@
 [root@localhost src]# g++ -g -std=c++11 -Wall -DBOOST_LOG_DYN_LINK -o logtest.o -c boost_log_test.cp
-[root@localhost src]# g++ -g -std=c++11 logtest.o -o logtest -rdynamic -lpthread -lboost_log -lboosttem -lboost_thread -lboost_filesystem
+[root@localhost src]# g++ -g -std=c++11 logtest.o -o logtest -rdynamic -lpthread -lboost_log -lboost_system -lboost_thread -lboost_filesystem
 
 [root@localhost src]# ls
 boost_log_test.cpp  CMakeLists.txt  hello.cpp  logtest  logtest.o  main.cpp
