@@ -1,0 +1,1 @@
+g++    -std=c++11 -pthread -g -Wall -g    CMakeFiles/boostlog.dir/boost_log.cpp.o  -o ../../bin/boostlog  -L/home/ld/Documents/blog/boost/lib  -L/usr/local/boost_1_65_0/libs -rdynamic -lboost_log -lboost_system -lboost_thread -lboost_filesystem -Wl,-rpath,/home/ld/Documents/blog/boost/lib:/usr/local/boost_1_65_0/libs 

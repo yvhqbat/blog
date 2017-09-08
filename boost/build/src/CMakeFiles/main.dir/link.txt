@@ -1,0 +1,1 @@
+g++    -std=c++11 -pthread -g -Wall -g    CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/ld/Documents/blog/boost/lib  -L/usr/local/boost_1_65_0/libs -rdynamic ../../lib/libhello.a -Wl,-rpath,/home/ld/Documents/blog/boost/lib:/usr/local/boost_1_65_0/libs 

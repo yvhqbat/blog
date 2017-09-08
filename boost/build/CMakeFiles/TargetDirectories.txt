@@ -1,0 +1,3 @@
+/home/ld/Documents/blog/boost/build/src/CMakeFiles/boostlog.dir
+/home/ld/Documents/blog/boost/build/src/CMakeFiles/hello.dir
+/home/ld/Documents/blog/boost/build/src/CMakeFiles/main.dir
