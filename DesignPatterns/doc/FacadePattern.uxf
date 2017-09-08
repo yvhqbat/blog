@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>220</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Client
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>200</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Facade
+--
+- m_subsystemOne
+- m_subsystemTwo
+- m_subsystemThree
+--
++ MethodA()
++ MethodB()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>430</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>SubSystemOne
+--
+
+--
++ MethodOne()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>430</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>SubSystemTwo
+--
+
+--
++ MethodTwo()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>430</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>SubSystemThree
+--
+
+--
++ MethodThree()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>160</y>
+      <w>410</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>390.0;40.0;390.0;10.0;10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>340</y>
+      <w>240</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;40.0;10.0;40.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>340</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>340</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;240.0;40.0;240.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>270</y>
+      <w>650</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>410.0;10.0;630.0;10.0;630.0;270.0;10.0;270.0;10.0;10.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>360</x>
+      <y>50</y>
+      <w>620</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>外观模式(Facade): 为子系统的一组接口提供一个一致的界面,
+此模式定义了一个高层接口, 这个接口使得这一子系统更加容易使用. [DP]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>590</y>
+      <w>590</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>SubSystem Classes  子系统类集合
+实现子系统的功能, 处理Facade 对象指派的任务.
+注意: 子系统类中没有Facade的任何信息, 即没有对Facade对象的引用.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>840</x>
+      <y>140</y>
+      <w>340</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Facade 外观类
+知道哪些子系统负责处理请求,
+将客户的请求代理个适当的子系统对象.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>160</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;40.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>290</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+SubSystem Classes</panel_attributes>
+    <additional_attributes>90.0;30.0;80.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>500</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>40.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>280</x>
+      <y>700</y>
+      <w>930</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>何时使用外观模式?
+首先, 在设计初期阶段, 应该要有意识的将不同的两个层分离;
+如经典的三层架构, 需要考虑 数据访问层-业务逻辑层, 业务逻辑层-表示层, 层与层之间建立外观Facade,
+这样为复杂的子系统提供一个简单的接口, 使得耦合大大降低.
+
+其次, 在开发阶段, 子系统往往因为不断的重构演化而变得越来越复杂, 增加外观Facade 可以提供一个简单的接口, 
+减少它们之间的依赖.
+
+第三, 在维护一个遗留的大型系统时, 可能这个系统已经非常难以维护和扩展了.
+为新系统开发一个外观Facade类, 来提供设计粗糙或高度复杂的遗留代码的比较清晰简单的接口, 
+让新系统与Facade 对象交互, Facade 与遗留代码交互所有复杂的工作.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
