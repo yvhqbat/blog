@@ -16,5 +16,7 @@ while True:
     c.send(data)
     data = c.recv(1024)
     print('receive: ', data)
+    if data=='shutdown':
+        break
 c.close()
 
